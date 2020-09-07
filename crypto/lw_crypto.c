@@ -24,10 +24,11 @@
 
 #include <stdint.h>
 #include <string.h> // memset
-#include <github.com/lobaro/c-utils/lobaroAssert.h>
 
 #include "lw_crypto.h"
 #include "cmac.h"
+
+#include "../aux.h"
 
 #define LW_KEY_LEN                          (16)
 #define LW_MIC_LEN                          (4)

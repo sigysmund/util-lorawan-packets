@@ -28,9 +28,11 @@
 
 #include <stdbool.h>
 #include <stddef.h>
-#include <github.com/lobaro/c-utils/datetime.h>
 
 #include "lw_state.h"
+
+#include "aux.h"
+
 // not supported yet!
 // yet only used to throw compiler warning at important positons
 #define USE_LORAWAN_1_1  (1)
